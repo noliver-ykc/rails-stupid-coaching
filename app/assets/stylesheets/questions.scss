@@ -1,0 +1,22 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+$gray: #d0cfcf;
+$yellow: rgb(250, 250, 191);
+
+.container {
+  padding: 10px 0px 10px 10px;
+}
+h1 {
+  padding: 10px;
+}
+.quote {
+  border-left: thick solid $gray;
+  padding-top: 10px;
+  padding-left: 15px;
+}
+
+.answer {
+  background-color: $yellow;
+}
